@@ -19,7 +19,7 @@ Question 5: Does the level of GDP affect changes in wages and food prices? Or, i
 1. czechia_payroll:<br>
     • General description: information about wages in various sectors for the years 2000 to 2021 <br>
     • column industry_branch_code <br>
-    		> IS NULL: contains average wages for current year for all industry branches <br>
+    IS NULL: contains average wages for current year for all industry branches <br>
    		> IS NOT NULL: wages are divided based on industry branch categories. <br>
 
 	I will use both condition for creation of my primary table. To answer research question 1 I will work with 'IS NOT NULL' condition. For the rest of the 	research question I will use condition 'IS NULL'<br>
@@ -32,7 +32,7 @@ Question 5: Does the level of GDP affect changes in wages and food prices? Or, i
             ▪ contains inaccuracies because of estimations
             ▪ does not take into account different working hours and employment type
 
-	Since the income that people use to purchase food does not come solely from full-time work 	income, I will use calculation_code 100 for my analysis. 
+	Since the income that people use to purchase food does not come solely from full-time work income, I will use calculation_code 100 for my analysis. 
 
 2. czechia_payroll_calculation:
     • General description: index of calculation's type in the czechia_payroll table 
@@ -51,13 +51,13 @@ Question 5: Does the level of GDP affect changes in wages and food prices? Or, i
     • General description: information about the prices of selected foods for the years 2006 to 2018.
     • column region code:
 		IS NULL: contains average price for selected period of time and product	
-		IN NOT NULL: contains product price, which was valid during selected period of 		time and region
+		IN NOT NULL: contains product price, which was valid during selected period of time and region
 
 7. czechia_price_category
 	- General description: index of food categories which appear in the czechia_price table.
 
-#### Additional tables:
-1. czechia_region: list of regions of the Czech Republic according to the CZ-NUTS 2 standard.
-2. czechia_district – list of districts of the Czech Republic according to the LAU standard.
-3. countries - All kinds of information about countries in the world, for example the capital, currency, national food or average height of the population.
-4. economies - contains information about GDP, GINI, tax burden, etc. for a given state and year.
+#### Additional tables: <br>
+1. czechia_region: list of regions of the Czech Republic according to the CZ-NUTS 2 standard. <br>
+2. czechia_district – list of districts of the Czech Republic according to the LAU standard. <br>
+3. countries - All kinds of information about countries in the world, for example the capital, currency, national food or average height of the population. <br>
+4. economies - contains information about GDP, GINI, tax burden, etc. for a given state and year. <br>
