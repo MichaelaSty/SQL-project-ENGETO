@@ -121,3 +121,4 @@ Conclusion: Overall economy growth (GDP increase):<br>
 
 ##  Creating secondary table <br>
 I will create a secondary table called 't_michaela_styskalova_project_sql_secondary_final', which will serve as an additional database. <br>
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/673ef4dac3285c80cf69fb9b900a5d476405d009/SQL_script.sql#L328-L351
