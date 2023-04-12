@@ -3,9 +3,9 @@
 ## Analyzing salaries and food prices in Czech Republic using SQL
 
 #### Project assignment: <br>
-Please prepare a comprehensive data documentation that shows comparisons of food product availability based on average incomes over a specific period of time. <br>
+Please prepare a comprehensive data documentation that compares the availability of food products based on average incomes over a specific period of time.
 
-As additional data, prepare a table with GDP, GINI coefficient and population of other European countries in the same period, as a primary overview for the Czech Republic.
+As additional data, please prepare a table with the GDP, GINI coefficient, and population of other European countries during the same period, to provide an overview for comparison with the Czech Republic.
 
 
 #### Research questions: <br>
