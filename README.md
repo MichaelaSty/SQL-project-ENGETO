@@ -23,7 +23,7 @@ As additional data, prepare a table with GDP, GINI coefficient and population of
    	• IS NOT NULL: wages are divided based on industry branch categories. <br>
 
 	I will use both condition for creation of my primary table. To answer research question 1 I will work with 'IS NOT NULL' condition. For the rest of the 	research question I will use condition 'IS NULL'<br>
-	
+	 
     * column calculation_code <br>
  	• **100 Average gross monthly salary for natural person:** includes also income from secondary employment, part-time employment, etc. <br>
    	<br>
