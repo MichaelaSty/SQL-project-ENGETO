@@ -108,7 +108,7 @@ ORDER BY category_name;
     	• 1308 pcs of 	'114201 - Mléko polotučné pasterované'.
     	
 	For the last comparable period (year 2018) can be bought: 
-   	 	• 1278 pcs of  	'111301 - Chléb konzumní' kmínový and 
+   	• 1278 pcs of  '111301 - Chléb konzumní' kmínový and 
     	• 1563 pcs of 	'114201 - Mléko polotučné pasterované'.
 */
 
