@@ -17,14 +17,14 @@ As additional data, prepare a table with GDP, GINI coefficient and population of
 
 #### Primary tables:
 1. czechia_payroll:<br>
-    • General description: information about wages in various sectors for the years 2000 to 2021 <br>
-    • column industry_branch_code <br>
+    * General description: information about wages in various sectors for the years 2000 to 2021 <br>
+    * column industry_branch_code <br>
     IS NULL: contains average wages for current year for all industry branches <br>
    		> IS NOT NULL: wages are divided based on industry branch categories. <br>
 
 	I will use both condition for creation of my primary table. To answer research question 1 I will work with 'IS NOT NULL' condition. For the rest of the 	research question I will use condition 'IS NULL'<br>
 	
-    • column calculation_code <br>
+    * column calculation_code <br>
         ◦ 100 Average gross monthly salary for natural person: <br>
             ▪  includes also income from secondary employment, part-time employment, etc. <br>
         ◦ 200 Average gross monthly salary for recalculated numbers <br>  
