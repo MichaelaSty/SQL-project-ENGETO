@@ -1,6 +1,6 @@
 # SQL-project-ENGETO
 
-## Data about salaries and food prices and their processing using SQL.
+## Analyzing salaries and food prices using SQL
 
 #### Project assignment: <br>
 Please prepare a comprehensive data documentation that shows comparisons of food product availability based on average incomes over a specific period of time. <br>
