@@ -30,14 +30,18 @@ As additional data, prepare a table with GDP, GINI coefficient and population of
 
 	Since the income that people use to purchase food does not come solely from full-time work income, I will use calculation_code 100 for my analysis. <br> 
 
-2. czechia_payroll_calculation: index of calculation's type in the czechia_payroll table <br>
+2. czechia_payroll_calculation: <br>
+    * index of calculation's type in the czechia_payroll table <br>
 
-3. czechia_payroll_industry_branch: index of industry branch type (A to S) and name in the czechia_payroll table <br>
+3. czechia_payroll_industry_branch: <br> 
+    * index of industry branch type (A to S) and name in the czechia_payroll table <br>
 
-4. czechia_payroll_unit: index of unit types in the czechia_payroll table <br>
+4. czechia_payroll_unit: <br> 
+    * index of unit types in the czechia_payroll table <br>
     * code '200 = CZK' will be used for analysis <br>
  
-5. czechia_payroll_value_type: <br> index of value types in the czechia_payroll table <br>
+5. czechia_payroll_value_type: <br>
+    * index of value types in the czechia_payroll table <br>
 
 6. czechia_price: <br> 
     * General description: information about the prices of selected foods for the years 2006 to 2018. <br>
