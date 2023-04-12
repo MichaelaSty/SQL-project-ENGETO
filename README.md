@@ -110,7 +110,7 @@ Yes, there were 33 cases fulfilling the given condition. Result can be seen in f
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L223-L297
 
 The GDP grow around 2 - 3 % per year doesn't have real impact/side effect on economy. I need to find max value in my data: <br> 
-https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L300-L304
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/d4d67465f2ca008e5ac7d8ffb2a0d1a089129e9b/SQL_script.sql#L300-L304
 
 I have selected the maximum percentage GDP change (5.57 %), whichvwas during the years 2006 - 2007 for further analysis. <br>
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/d4d67465f2ca008e5ac7d8ffb2a0d1a089129e9b/SQL_script.sql#L311-L316
