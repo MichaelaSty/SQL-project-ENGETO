@@ -61,3 +61,12 @@ As additional data, please prepare a table with the GDP, GINI coefficient, and p
     * all kinds of information about countries in the world, for example the capital, currency, national food or average height of the population. <br>
 7. economies: <br>
     * contains information about GDP, GINI, tax burden, etc. for a given state and year. <br>
+
+#### Creating primary table 
+I will create a primary table **t_michaela_styskalova_project_sql_primary_final**, which will used as a basis for solving individual research questions.
+
+Data from czechia_payroll, named as wages 
+
+Data from czechia_price, named as prices
+
+Final select, forming the primary table:
