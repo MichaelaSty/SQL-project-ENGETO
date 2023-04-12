@@ -22,7 +22,7 @@ As additional data, prepare a table with GDP, GINI coefficient and population of
     	• IS NULL: contains average wages for current year for all industry branches <br>
    	• IS NOT NULL: wages are divided based on industry branch categories. <br>
 
-	I will use both condition for creation of my primary table. To answer research question 1 I will work with 'IS NOT NULL' condition. For the rest of the 	research question I will use condition 'IS NULL'<br>
+	I will use both conditions to create my primary table. For research question 1, I will work with the 'IS NOT NULL' condition, while for the remaining research 		questions, I will use the 'IS NULL' condition.<br>
 	 
     * column calculation_code <br>
  	• **100 Average gross monthly salary for natural person:** includes income from secondary employment, part-time employment, and other sources. <br>
