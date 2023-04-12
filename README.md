@@ -79,3 +79,38 @@ https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0
 
 **Conclusion Q1:** <br>
 The industry branch codes H, N, Q, and S have shown rising wages over the years. While other industry branch codes also have an increasing wage trend, there have been declines in certain years and sectors. This can be observed in the final selection. <br>
+
+## **Question 2:** How many liters of milk and kilograms of bread can be bought in the first and last comparable periods in the available price and wage data? <br>
+
+**Conclusion Q2:** <br>
+For the first period (year 2006) can be bought <br>
+    • 1172 pcs of 	'111301 - Chléb konzumní kmínový' and <br>
+    • 1308 pcs of 	'114201 - Mléko polotučné pasterované'. <br>
+For the last comparable period (2018) can be bought <br>
+    • 1278 pcs of  	'111301 - Chléb konzumní' kmínový and <br>
+    • 1563 pcs of 	'114201 - Mléko polotučné pasterované'.<br>
+
+
+## **Question 3:** Which food category is increasing in price the slowest (has the lowest percentage year-on-year increase)? <br>
+
+**Conclusion Q3:** <br>
+The lowest percentage year-on-year increase (0.01 %) can be found in the category 'Rostlinný roztíratelný tuk' from the year 2008 to 2009. <br>
+
+
+## **Question 4:** Has there been a year in which the year-on-year increase in food prices was significantly higher than wage growth (greater than 10%)? <br>
+
+**Conclusion Q4:** <br> 
+Yes, there were 33 cases fulfilling the given condition. Result can be seen in final select.<br>
+
+## **Question 5:** <br> 	
+Does the level of GDP affect changes in wages and food prices? Or, if the GDP increases more significantly in one year, will this be reflected in food prices or wages in the same or the following year by a more significant increase? <br>
+
+
+
+The GDP grow around 2 - 3 % per year doesn't have real impact/side effect on economy. <br> 
+This is the reason, why I have selected the maximum percentage GDP change (5.57 %), which
+was during the years 2006 - 2007 for further analysis. <br>
+
+Conclusion: Overall economy growth (GDP increase):<br>
+	- increase the prices or slows down the price reduction trend <br>
+	- increase the wages<br>
