@@ -116,5 +116,5 @@ I have selected the maximum percentage GDP change (5.57 %), which was during the
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/d4d67465f2ca008e5ac7d8ffb2a0d1a089129e9b/SQL_script.sql#L311-L316
 
 Conclusion: Overall economy growth (GDP increase):<br>
-	- increase the prices or slows down the price reduction trend <br>
-	- increase the wages<br>
+	- increase the prices or slows down the price reduction trend, <br>
+	- increase the wages. <br>
