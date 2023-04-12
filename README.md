@@ -81,6 +81,7 @@ https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0
 The industry branch codes H, N, Q, and S have shown rising wages over the years. While other industry branch codes also have an increasing wage trend, there have been declines in certain years and sectors. This can be observed in the final selection. <br>
 
 ## **Question 2:** How many liters of milk and kilograms of bread can be bought in the first and last comparable periods in the available price and wage data? <br>
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L88-L103
 
 **Conclusion Q2:** <br>
 For the first period (year 2006) can be bought: <br>
