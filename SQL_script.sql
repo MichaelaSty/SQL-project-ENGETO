@@ -41,8 +41,8 @@ SELECT
 	w.industry_branch_code AS 'industry_branch_code',
 	w.wages AS 'wages',
 	CASE 	WHEN p.avg_annual_price IS NULL THEN 0
-			ELSE floor(w.wages /p.avg_annual_price)
-			END AS 'pcs'
+		ELSE floor(w.wages /p.avg_annual_price)
+		END AS 'pcs'
 FROM wages w
 LEFT JOIN prices p
     ON p.pricing_year = w.payroll_year
