@@ -62,9 +62,9 @@ As additional data, please prepare a table with the GDP, GINI coefficient, and p
 7. economies: <br>
     * contains information about GDP, GINI, tax burden, etc. for a given state and year. <br>
 
-#### Creating primary table 
-I will create a primary table **t_michaela_styskalova_project_sql_primary_final**, which will used as a basis for solving individual research questions.
-
+#### Creating primary table <br>
+I will create a primary table **t_michaela_styskalova_project_sql_primary_final**, which will used as a basis for solving individual research questions.<br>
+ 
 Data from czechia_payroll, named as wages 
 
 Data from czechia_price, named as prices
