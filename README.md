@@ -112,7 +112,7 @@ https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0
 The GDP grow around 2 - 3 % per year doesn't have real impact/side effect on economy. I need to find max value in my data: <br> 
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/d4d67465f2ca008e5ac7d8ffb2a0d1a089129e9b/SQL_script.sql#L300-L304
 
-I have selected the maximum percentage GDP change (5.57 %), whichvwas during the years 2006 - 2007 for further analysis. <br>
+I have selected the maximum percentage GDP change (5.57 %), which was during the years 2006 - 2007 for further analysis. <br>
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/d4d67465f2ca008e5ac7d8ffb2a0d1a089129e9b/SQL_script.sql#L311-L316
 
 Conclusion: Overall economy growth (GDP increase):<br>
