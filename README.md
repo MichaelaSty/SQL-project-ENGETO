@@ -101,17 +101,19 @@ The lowest percentage year-on-year increase (0.01 %) can be found in the categor
 
 
 ## **Question 4:** Has there been a year in which the year-on-year increase in food prices was significantly higher than wage growth (greater than 10%)? <br>
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L163-L212
 
 **Conclusion Q4:** <br> 
 Yes, there were 33 cases fulfilling the given condition. Result can be seen in final select.<br>
 
 ## **Question 5:** Does the level of GDP affect changes in wages and food prices? Or, if the GDP increases more significantly in one year, will this be reflected in food prices or wages in the same or the following year by a more significant increase? <br>
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L223-L297
 
+The GDP grow around 2 - 3 % per year doesn't have real impact/side effect on economy. I need to find max value in my data: <br> 
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L300-L304
 
-
-The GDP grow around 2 - 3 % per year doesn't have real impact/side effect on economy. <br> 
-This is the reason, why I have selected the maximum percentage GDP change (5.57 %), which
-was during the years 2006 - 2007 for further analysis. <br>
+I have selected the maximum percentage GDP change (5.57 %), whichvwas during the years 2006 - 2007 for further analysis. <br>
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/d4d67465f2ca008e5ac7d8ffb2a0d1a089129e9b/SQL_script.sql#L311-L316
 
 Conclusion: Overall economy growth (GDP increase):<br>
 	- increase the prices or slows down the price reduction trend <br>
