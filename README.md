@@ -86,6 +86,7 @@ The industry branch codes H, N, Q, and S have shown rising wages over the years.
 For the first period (year 2006) can be bought: <br>
 	* 1172 pcs of 	'111301 - Chléb konzumní kmínový' and <br>
 	* 1308 pcs of 	'114201 - Mléko polotučné pasterované'. <br>
+	<br>
 For the last comparable period (2018) can be bought <br>
 	* 1278 pcs of  	'111301 - Chléb konzumní' kmínový and <br>
 	* 1563 pcs of 	'114201 - Mléko polotučné pasterované'.<br>
