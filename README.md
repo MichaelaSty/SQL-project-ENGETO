@@ -35,26 +35,26 @@ As additional data, prepare a table with GDP, GINI coefficient and population of
 	Since the income that people use to purchase food does not come solely from full-time work income, I will use calculation_code 100 for my analysis. <br> 
 
 2. czechia_payroll_calculation:<br>
-    • General description: index of calculation's type in the czechia_payroll table <br>
+    * General description: index of calculation's type in the czechia_payroll table <br>
 
 3. czechia_payroll_industry_branch: <br>
-    • General description: index of industry branch type (A to S) and name in the czechia_payroll table <br>
+    * General description: index of industry branch type (A to S) and name in the czechia_payroll table <br>
 
 4. czechia_payroll_unit <br>
-    • General description: index of unit types in the czechia_payroll table <br>
-    • code '200 = CZK' will be used for analysis <br>
+    * General description: index of unit types in the czechia_payroll table <br>
+    * code '200 = CZK' will be used for analysis <br>
  
 5. czechia_payroll_value_type: <br>     
-    • General description: index of value types in the czechia_payroll table <br>
+    * General description: index of value types in the czechia_payroll table <br>
 
 6. czechia_price: <br> 
-    • General description: information about the prices of selected foods for the years 2006 to 2018. <br>
-    • column region code: <br>
+    * General description: information about the prices of selected foods for the years 2006 to 2018. <br>
+    * column region code: <br>
 		IS NULL: contains average price for selected period of time and product <br>	
 		IN NOT NULL: contains product price, which was valid during selected period of time and region <br>
 
 7. czechia_price_category <br>
-	- General description: index of food categories which appear in the czechia_price table. <br>
+    * General description: index of food categories which appear in the czechia_price table. <br>
 
 #### Additional tables: <br>
 1. czechia_region: list of regions of the Czech Republic according to the CZ-NUTS 2 standard. <br>
