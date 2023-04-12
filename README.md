@@ -16,7 +16,7 @@ As additional data, prepare a table with GDP, GINI coefficient and population of
 **Question 5**: Does the level of GDP affect changes in wages and food prices? Or, if the GDP increases more significantly in one year, will this be reflected in food prices or wages in the same or the following year by a more significant increase? <br>
 
 #### Primary tables:
-**1. czechia_payroll:<br>**
+**1. czechia_payroll:** <br>
     * General description: information about wages in various sectors for the years 2000 to 2021 <br>
     * column industry_branch_code <br>
     	** IS NULL: contains average wages for current year for all industry branches <br>
