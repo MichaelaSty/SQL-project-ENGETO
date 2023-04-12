@@ -94,6 +94,7 @@ For the last comparable period (2018) can be bought <br>
 
 
 ## **Question 3:** Which food category is increasing in price the slowest (has the lowest percentage year-on-year increase)? <br>
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L120-L151
 
 **Conclusion Q3:** <br>
 The lowest percentage year-on-year increase (0.01 %) can be found in the category 'Rostlinný roztíratelný tuk' from the year 2008 to 2009. <br>
