@@ -50,8 +50,8 @@ As additional data, prepare a table with GDP, GINI coefficient and population of
 6. czechia_price: <br> 
     * General description: information about the prices of selected foods for the years 2006 to 2018. <br>
     * column region code: <br>
-	•IS NULL: contains average price for selected period of time and product <br>	
-	•IN NOT NULL: contains product price, which was valid during selected period of time and region <br>
+	• IS NULL: contains average price for selected period of time and product <br>	
+	• IS NOT NULL: contains product price, which was valid during selected period of time and region <br>
 
 7. czechia_price_category <br>
     * General description: index of food categories which appear in the czechia_price table. <br>
