@@ -105,8 +105,7 @@ The lowest percentage year-on-year increase (0.01 %) can be found in the categor
 **Conclusion Q4:** <br> 
 Yes, there were 33 cases fulfilling the given condition. Result can be seen in final select.<br>
 
-## **Question 5:** <br> 	
-Does the level of GDP affect changes in wages and food prices? Or, if the GDP increases more significantly in one year, will this be reflected in food prices or wages in the same or the following year by a more significant increase? <br>
+## **Question 5:** Does the level of GDP affect changes in wages and food prices? Or, if the GDP increases more significantly in one year, will this be reflected in food prices or wages in the same or the following year by a more significant increase? <br>
 
 
 
