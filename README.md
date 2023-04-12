@@ -66,6 +66,7 @@ As additional data, please prepare a table with the GDP, GINI coefficient, and p
 I will create a primary table **t_michaela_styskalova_project_sql_primary_final**, which will used as a basis for solving individual research questions.<br>
  
 Data from czechia_payroll, named as wages 
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/e72ee5b3697d8e5379a174729be1612616411cbe/SQL_script.sql#L6-L17
 
 Data from czechia_price, named as prices
 
