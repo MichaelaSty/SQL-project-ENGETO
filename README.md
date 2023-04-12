@@ -30,18 +30,14 @@ As additional data, prepare a table with GDP, GINI coefficient and population of
 
 	Since the income that people use to purchase food does not come solely from full-time work income, I will use calculation_code 100 for my analysis. <br> 
 
-2. czechia_payroll_calculation:<br>
-    * General description: index of calculation's type in the czechia_payroll table <br>
+2. czechia_payroll_calculation:<br> index of calculation's type in the czechia_payroll table <br>
 
-3. czechia_payroll_industry_branch: <br>
-    * General description: index of industry branch type (A to S) and name in the czechia_payroll table <br>
+3. czechia_payroll_industry_branch: <br> index of industry branch type (A to S) and name in the czechia_payroll table <br>
 
-4. czechia_payroll_unit <br>
-    * General description: index of unit types in the czechia_payroll table <br>
+4. czechia_payroll_unit <br> index of unit types in the czechia_payroll table <br>
     * code '200 = CZK' will be used for analysis <br>
  
-5. czechia_payroll_value_type: <br>     
-    * General description: index of value types in the czechia_payroll table <br>
+5. czechia_payroll_value_type: <br> index of value types in the czechia_payroll table <br>
 
 6. czechia_price: <br> 
     * General description: information about the prices of selected foods for the years 2006 to 2018. <br>
@@ -54,6 +50,6 @@ As additional data, prepare a table with GDP, GINI coefficient and population of
 
 #### Additional tables: <br>
 1. czechia_region: list of regions of the Czech Republic according to the CZ-NUTS 2 standard. <br>
-2. czechia_district – list of districts of the Czech Republic according to the LAU standard. <br>
-3. countries - All kinds of information about countries in the world, for example the capital, currency, national food or average height of the population. <br>
-4. economies - contains information about GDP, GINI, tax burden, etc. for a given state and year. <br>
+2. czechia_district: list of districts of the Czech Republic according to the LAU standard. <br>
+3. countries: all kinds of information about countries in the world, for example the capital, currency, national food or average height of the population. <br>
+4. economies: contains information about GDP, GINI, tax burden, etc. for a given state and year. <br>
