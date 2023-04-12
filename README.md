@@ -1,6 +1,6 @@
 # SQL-project-ENGETO
 
-## Analyzing salaries and food prices using SQL
+## Analyzing salaries and food prices in Czech Republic using SQL
 
 #### Project assignment: <br>
 Please prepare a comprehensive data documentation that shows comparisons of food product availability based on average incomes over a specific period of time. <br>
