@@ -19,8 +19,8 @@ Question 5: Does the level of GDP affect changes in wages and food prices? Or, i
 1. czechia_payroll:<br>
     • General description: information about wages in various sectors for the years 2000 to 2021 <br>
     • column industry_branch_code <br>
-   \t ◦ IS NULL: contains average wages for current year for all industry branches <br>
-   \t ◦ IS NOT NULL: wages are divided based on industry branch categories. <br>
+   '\t' IS NULL: contains average wages for current year for all industry branches <br>
+   \t IS NOT NULL: wages are divided based on industry branch categories. <br>
 
 	I will use both condition for creation of my primary table. To answer research question 1 I will work with 'IS NOT NULL' condition. For the rest of the 	research question I will use condition 'IS NULL'<br>
 	
