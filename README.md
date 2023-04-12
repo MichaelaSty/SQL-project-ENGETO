@@ -68,7 +68,7 @@ I will create the primary table **t_michaela_styskalova_project_sql_primary_fina
 At first, I will extract the data from the 'czechia_payroll' table and name it as 'wages': 
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/e72ee5b3697d8e5379a174729be1612616411cbe/SQL_script.sql#L6-L17
 
-Next, I will include data from the 'czechia_price dataset, which will be named 'prices':
+Next, I will include data from the 'czechia_price' dataset, which will be named 'prices':
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/e72ee5b3697d8e5379a174729be1612616411cbe/SQL_script.sql#L18-L32
 
 Final select, forming the primary table:
