@@ -118,3 +118,6 @@ https://github.com/MichaelaSty/SQL-project-ENGETO/blob/d4d67465f2ca008e5ac7d8ffb
 Conclusion: Overall economy growth (GDP increase):<br>
 	- increase the prices or slows down the price reduction trend, <br>
 	- increase the wages. <br>
+
+##  Creating secondary table <br>
+I will create a secondary table called 't_michaela_styskalova_project_sql_secondary_final', which will serve as an additional database. <br>
