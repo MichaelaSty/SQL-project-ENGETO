@@ -301,7 +301,7 @@ SELECT
 	`year`, 
 	prev_year, 
 	max(pct_GDP_change) AS 'max_pct_GDP_change'
-FROM t_question5 
+FROM t_question5;
 
 /* 	Checking the GDP impact on the prices and wages
 	Setting up lower limit 2005
@@ -313,7 +313,7 @@ SELECT
 FROM t_question5 
 WHERE 
 	`year` > 2005 
-	AND `year` < 2011
+	AND `year` < 2011;
 
 /*	The GDP grow around 2 - 3 % per year doesn't have real impact/side effect
 	on economy. For this reason I have selected the maximum percentage GDP 
