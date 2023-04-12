@@ -63,7 +63,7 @@ As additional data, please prepare a table with the GDP, GINI coefficient, and p
     * contains information about GDP, GINI, tax burden, etc. for a given state and year. <br>
 
 ##  Creating primary table <br>
-I will create the primary table **t_michaela_styskalova_project_sql_primary_final**, which will be used as a basis for solving individual research questions <br>
+I will create the primary table **t_michaela_styskalova_project_sql_primary_final**, which will be used as a basis for solving individual research questions. <br>
  
 At first, I will extract the data from the 'czechia_payroll' table and name it as 'wages': 
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/e72ee5b3697d8e5379a174729be1612616411cbe/SQL_script.sql#L6-L17
@@ -73,3 +73,10 @@ https://github.com/MichaelaSty/SQL-project-ENGETO/blob/e72ee5b3697d8e5379a174729
 
 Final select, forming the primary table:
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L33-L49
+
+## Question 1: Are wages rising in all industries over the years, or falling in some?
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L52-L69
+
+Conclusion: <br>
+Industry branch codes: H, N, Q, S have rising wages over the years.<br>
+Other industry branch codes have an increasing wage trend, however, a decline can be detected in certain years and sectors. This result can be seen in the final selection.<br>
