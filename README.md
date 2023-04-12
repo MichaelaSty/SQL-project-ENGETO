@@ -53,7 +53,11 @@ As additional data, prepare a table with GDP, GINI coefficient and population of
     * General description: index of food categories which appear in the czechia_price table. <br>
 
 #### Additional tables: <br>
-1. czechia_region: list of regions of the Czech Republic according to the CZ-NUTS 2 standard. <br>
-2. czechia_district: list of districts of the Czech Republic according to the LAU standard. <br>
-3. countries: all kinds of information about countries in the world, for example the capital, currency, national food or average height of the population. <br>
-4. economies: contains information about GDP, GINI, tax burden, etc. for a given state and year. <br>
+1. czechia_region: <br> 
+    * list of regions of the Czech Republic according to the CZ-NUTS 2 standard. <br>
+3. czechia_district: <br>
+    * list of districts of the Czech Republic according to the LAU standard. <br>
+5. countries: <br> 
+    * all kinds of information about countries in the world, for example the capital, currency, national food or average height of the population. <br>
+7. economies: <br>
+    * contains information about GDP, GINI, tax burden, etc. for a given state and year. <br>
