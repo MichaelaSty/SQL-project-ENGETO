@@ -336,8 +336,10 @@ SELECT
 	e.gini
 FROM countries c
 LEFT JOIN economies e
-ON c.country = e.country
-WHERE continent = 'Europe' AND `year` BETWEEN 2000 AND 2021
+	ON c.country = e.country
+WHERE 
+	continent = 'Europe' 
+	AND `year` BETWEEN 2000 AND 2021
 GROUP BY 
 	c.country,
 	c.continent,
