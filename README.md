@@ -75,7 +75,7 @@ Final select, forming the primary table. The join is based on the matching year 
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L33-L49
 
 ## Question 1: Are wages rising in all industries over the years, or falling in some?
-https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L52-L69
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/39de4fea69ccdf0ae1dd8245c5f503d6d71eafe3/SQL_script.sql#L52-L70
 
 **Conclusion Q1:** <br>
 The industry branch codes H, N, Q, and S have shown rising wages over the years. While other industry branch codes also have an increasing wage trend, there have been declines in certain years and sectors. This can be observed in the final selection. <br>
