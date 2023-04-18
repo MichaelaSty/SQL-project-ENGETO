@@ -316,13 +316,12 @@ SELECT
 	max(pct_GDP_change) AS 'max_pct_GDP_change'
 FROM t_question5;
 
-/* 	Checking the GDP impact on the prices and wages
-	Setting up lower limit 2005
-	Setting up upper limit 2011 	
+/* 	Check the GDP impact on the prices and wages
+	Set up lower limit 2005
+	Set up upper limit 2011 	
 */
 
-SELECT
-	*
+SELECT *
 FROM t_question5 
 WHERE 
 	`year` > 2005 
