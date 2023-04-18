@@ -1,4 +1,4 @@
--- Creating primary table
+-- Create primary table
 CREATE OR REPLACE TABLE t_michaela_styskalova_project_sql_primary_final AS 
 WITH 
 wages AS (
