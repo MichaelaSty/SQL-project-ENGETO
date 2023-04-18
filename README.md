@@ -97,7 +97,7 @@ For the last comparable period (2018) can be bought <br>
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/14b0448dc76eaddc457a2a657fee6514e64eb3d9/SQL_script.sql#L120-L149
 
 **Conclusion Q3:** <br>
-The lowest percentage year-on-year increase (0.01 %) can be found in the category 'Rostlinný roztíratelný tuk' from the year 2008 to 2009. <br>
+The lowest percentage year-on-year increase (-30.28 %) can be found in the category 'Rajská jablka červená kulatá' from the year 2006 to 2007. <br>
 
 
 ## **Question 4:** Has there been a year in which the year-on-year increase in food prices was significantly higher than wage growth (greater than 10%)? <br>
