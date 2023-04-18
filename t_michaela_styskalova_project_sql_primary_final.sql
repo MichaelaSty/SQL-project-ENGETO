@@ -1,4 +1,4 @@
--- Create primary table
+-- Create table 't_michaela_styskalova_project_sql_primary_final' that joins two CTEs: 'wages' and 'prices' 
 CREATE OR REPLACE TABLE t_michaela_styskalova_project_sql_primary_final AS 
 WITH 
 wages AS (
