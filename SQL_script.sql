@@ -49,17 +49,18 @@ LEFT JOIN prices p
 ;
 
 -- Question 1: Are wages rising in all industries over the years, or falling in some?
+-- Add a new CTE 'question1' that calculates the percentage change in wages for each industry branch in Czechia
 WITH question1 AS (
 SELECT
-	t1.payroll_year,
-	t1.industry_branch_code,
-	t1.wages, 
-	t2.wages AS 'prev_wages', 
-	round(((t1.wages * 100) / t2.wages) - 100, 2)  AS 'pct_wage_change'
-FROM t_michaela_styskalova_project_sql_primary_final  AS t1
-LEFT JOIN t_michaela_styskalova_project_sql_primary_final  AS t2
-	ON t1.industry_branch_code = t2.industry_branch_code
-	AND t1.payroll_year = t2.payroll_year +1
+	primary1.payroll_year,
+	primary1.industry_branch_code,
+	primary1.wages, 
+	primary2.wages AS 'prev_wages', 
+	round(((primary1.wages * 100) / primary2.wages) - 100, 2)  AS 'pct_wage_change'
+FROM t_michaela_styskalova_project_sql_primary_final  AS primary1
+LEFT JOIN t_michaela_styskalova_project_sql_primary_final  AS primary2
+	ON primary1.industry_branch_code = primary2.industry_branch_code
+	AND primary1.payroll_year = primary2.payroll_year +1
 GROUP BY industry_branch_code, payroll_year  
 )
 SELECT *
