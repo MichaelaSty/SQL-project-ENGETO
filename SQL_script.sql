@@ -2,7 +2,7 @@
 	Discord: Michaela St.#9278
 */
 
--- Creating primary table
+-- Create primary table
 CREATE OR REPLACE TABLE t_michaela_styskalova_project_sql_primary_final AS 
 WITH 
 wages AS (
@@ -307,7 +307,7 @@ GROUP BY
     h.pct_GDP_change
 );
 
--- Checking the maximum percentage GDP change
+-- Check the maximum percentage GDP change
 SELECT 
 	`year`, 
 	prev_year, 
@@ -335,7 +335,7 @@ WHERE
 		- increase the wages
 */
 
--- Creating secondary table
+-- Create secondary table
 CREATE OR REPLACE TABLE t_michaela_styskalova_project_SQL_secondary_final AS (
 SELECT
 	c.country,
