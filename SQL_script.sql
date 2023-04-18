@@ -210,15 +210,15 @@ GROUP BY
 	prev_pricing_year 
 )
 SELECT
-	p.*,
-	w.*,
-	pct_price_change - pct_wage_change AS 'price_vs_wages'
-FROM prices_q4 p
+	p.pricing_year,
+	p.prev_pricing_year,
+	p.avg_pct_price_change,
+	w.pct_wage_change,
+	avg_pct_price_change - pct_wage_change AS 'price_vs_wages'
+FROM 	prices_q4 p
 LEFT JOIN wages_q4 w
-    ON p.pricing_year = w.payroll_year
-    AND p.category_code = w.category_code
-WHERE (pct_price_change - pct_wage_change) > 10  
-GROUP BY payroll_year, p.category_code 
+    	ON p.pricing_year = w.payroll_year
+GROUP BY payroll_year
 ORDER BY price_vs_wages DESC;
 
 /*	Conclusion: There was no year in which the year-on-year price
