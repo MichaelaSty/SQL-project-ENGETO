@@ -110,7 +110,7 @@ There was no year in which the year-on-year price change of the consumer basket 
 ## **Question 5:** Does the level of GDP affect changes in wages and food prices? Or, if the GDP increases more significantly in one year, will this be reflected in food prices or wages in the same or the following year by a more significant increase? <br>
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L223-L297
 
-The GDP grow around 2 - 3 % per year doesn't have real impact/side effect on economy. I need to find max value in my data: <br> 
+Finding max value in data: <br> 
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/d4d67465f2ca008e5ac7d8ffb2a0d1a089129e9b/SQL_script.sql#L300-L304
 
 I have selected the maximum percentage GDP change (5.57 %), which was during the years 2006 - 2007 for further analysis. <br>
