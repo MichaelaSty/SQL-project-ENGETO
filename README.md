@@ -120,4 +120,4 @@ Conclusion Q5: Yes, the higher level of GDP increase food prices and wages durin
 
 ##  Creating secondary table <br>
 I will create a secondary table called 't_michaela_styskalova_project_sql_secondary_final', which will serve as an additional material. <br>
-https://github.com/MichaelaSty/SQL-project-ENGETO/blob/673ef4dac3285c80cf69fb9b900a5d476405d009/SQL_script.sql#L328-L351
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/ed54ce724abba92b96187bfa16276e6cb4169f68/t_michaela_styskalova_project_sql_secondary_final.sql#L1-L25
