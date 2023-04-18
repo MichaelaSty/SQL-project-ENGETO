@@ -179,28 +179,40 @@ WITH wages_q4 AS (
 ),
 prices_q4 AS (
 SELECT
-	t1.category_code, 
-	t1.unit_price,
-	t1.pricing_year, 
-	t2.pricing_year AS 'prev_pricing_year',
-	t2.unit_price AS 'prev_unit_price',
-	round(((t1.unit_price * 100) / t2.unit_price) - 100, 2)  AS 'pct_price_change'
-FROM t_michaela_styskalova_project_sql_primary_final t1 
-	LEFT JOIN t_michaela_styskalova_project_sql_primary_final t2
-	ON t1.category_code = t2.category_code
-	AND t1.pricing_year = t2.pricing_year +1
-	WHERE t1.pricing_year > 2006
-GROUP BY 
-	t1.category_code, 
-	t1.unit_price,
+	pricing_year,
 	prev_pricing_year,
-	prev_unit_price
-ORDER BY category_code, pricing_year 
+	round(avg(pct_price_change), 2) AS 'avg_pct_price_change'
+FROM
+	(
+	SELECT
+		t1.category_code, 
+		t1.unit_price,
+		t1.pricing_year, 
+		t2.pricing_year AS 'prev_pricing_year',
+		t2.unit_price AS 'prev_unit_price',
+		round(((t1.unit_price * 100) / t2.unit_price) - 100, 2) AS 'pct_price_change'
+	FROM 	t_michaela_styskalova_project_sql_primary_final t1
+	LEFT JOIN t_michaela_styskalova_project_sql_primary_final t2
+		ON t1.category_code = t2.category_code
+		AND t1.pricing_year = t2.pricing_year + 1
+	WHERE 	t1.pricing_year > 2006
+	GROUP BY 
+		t1.category_code, 
+		t1.unit_price,
+		prev_pricing_year,
+		prev_unit_price
+	ORDER BY 
+		category_code, 
+		pricing_year 
+	) subquery_price_q4
+GROUP BY
+	pricing_year,
+	prev_pricing_year 
 )
 SELECT
-p.*,
-w.*,
-pct_price_change - pct_wage_change AS 'price_vs_wages'
+	p.*,
+	w.*,
+	pct_price_change - pct_wage_change AS 'price_vs_wages'
 FROM prices_q4 p
 LEFT JOIN wages_q4 w
     ON p.pricing_year = w.payroll_year
@@ -209,8 +221,9 @@ WHERE (pct_price_change - pct_wage_change) > 10
 GROUP BY payroll_year, p.category_code 
 ORDER BY price_vs_wages DESC;
 
-/*	Conclusion: Yes, there were 33 cases fulfilling the given condition.
-	Result can be seen in final select.
+/*	Conclusion: There was no year in which the year-on-year price
+  	change of the consumer basket exceeded the year-on-year wage 
+  	change by more than 10%.
 */
  
 /*	Question 5: Does the level of GDP affect changes in wages 
