@@ -102,7 +102,7 @@ The lowest percentage year-on-year increase (-30.28 %) can be found in the categ
 
 
 ## **Question 4:** Has there been a year in which the year-on-year increase in food prices was significantly higher than wage growth (greater than 10%)? <br>
-https://github.com/MichaelaSty/SQL-project-ENGETO/blob/20fc19ae2ff02c39785328f395e5a28eed6ab73f/SQL_script.sql#L161-L222
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/1208a31672da8d32bbd849c1e658cac8f72ea68c/SQL_script.sql#L163-L224
 
 **Conclusion Q4:** <br> 
 There was no year in which the year-on-year price change of the consumer basket exceeded the year-on-year wage change by more than 10%.<br>
