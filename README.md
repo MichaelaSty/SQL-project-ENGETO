@@ -74,7 +74,8 @@ https://github.com/MichaelaSty/SQL-project-ENGETO/blob/e72ee5b3697d8e5379a174729
 Final select, forming the primary table. The join is based on the matching year of the wage and price data:
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L33-L49
 
-## Question 1: Are wages rising in all industries over the years, or falling in some?
+## Question 1: Are wages rising in all industries over the years, or falling in some? <br>
+The query selects the current and previous year wages for each industry and calculates the percentage change. The results are filtered to show only the industry branches with a negative percentage change in wages: <br>
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/39de4fea69ccdf0ae1dd8245c5f503d6d71eafe3/SQL_script.sql#L52-L70
 
 **Conclusion Q1:** <br>
