@@ -101,10 +101,10 @@ The lowest percentage year-on-year increase (-30.28 %) can be found in the categ
 
 
 ## **Question 4:** Has there been a year in which the year-on-year increase in food prices was significantly higher than wage growth (greater than 10%)? <br>
-https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L163-L212
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/16bac56475df69532c818dbb81b8388c053d81a7/SQL_script.sql#L161-L222
 
 **Conclusion Q4:** <br> 
-Yes, there were 33 cases fulfilling the given condition. Result can be seen in final select.<br>
+There was no year in which the year-on-year price change of the consumer basket exceeded the year-on-year wage change by more than 10%.<br>
 
 ## **Question 5:** Does the level of GDP affect changes in wages and food prices? Or, if the GDP increases more significantly in one year, will this be reflected in food prices or wages in the same or the following year by a more significant increase? <br>
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L223-L297
