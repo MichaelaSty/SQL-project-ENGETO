@@ -111,7 +111,7 @@ There was no year in which the year-on-year price change of the consumer basket 
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L223-L297
 
 Finding max value in data: <br> 
-https://github.com/MichaelaSty/SQL-project-ENGETO/blob/d4d67465f2ca008e5ac7d8ffb2a0d1a089129e9b/SQL_script.sql#L300-L304
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/d58d67d2bed2611fcdf286008fbd904b93ae9d54/SQL_script.sql#L312-L317
 
 I have selected the maximum percentage GDP change (5.57 %), which was during the years 2006 - 2007 for further analysis. <br>
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/1cd8bc83048414c9a24bf912e0736060d0687031/SQL_script.sql#L319-L328
