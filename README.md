@@ -68,7 +68,7 @@ I will create the primary table **t_michaela_styskalova_project_sql_primary_fina
 First, I will extract data from the 'czechia_payroll' table and name it 'wages'. The 'wages' CTE contains the average wages of different industry branches in Czechia as well as the average wages per year for all industries from the 'czechia_payroll' table. <br> 
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/b3ecd0c146304d37fa9a511225057273c4eefead/SQL_script.sql#L5-L17
 
-Next, I will include data from the 'czechia_price' dataset, which will be named 'prices':
+Next, I will include data from the 'czechia_price' dataset, which will be named 'prices'. The 'prices' CTE contains the average prices, name and measuring units of different food categories in Czechia from the 'czechia_price' and 'czechia_price_category' tables: <br> 
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/e72ee5b3697d8e5379a174729be1612616411cbe/SQL_script.sql#L18-L32
 
 Final select, forming the primary table:
