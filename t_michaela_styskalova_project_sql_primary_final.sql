@@ -8,7 +8,8 @@ wages AS (
 		round(avg(value),2) AS wages
 	FROM czechia_payroll 
 	WHERE 
-		value_type_code = 5958 AND calculation_code = 100
+		value_type_code = 5958 
+		AND calculation_code = 100
 	GROUP BY industry_branch_code, payroll_year
 ),
 prices AS (
@@ -24,7 +25,12 @@ prices AS (
 	JOIN czechia_price_category cpc 
 	ON cp.category_code = cpc.code 
 	WHERE cp.region_code IS NULL 
-	GROUP BY cp.category_code, pricing_year, cpc.name, cpc.price_value, cpc.price_unit 
+	GROUP BY 
+		cp.category_code, 
+		pricing_year, 
+		cpc.name, 
+		cpc.price_value, 
+		cpc.price_unit 
 )
 SELECT 
 	p.avg_annual_price AS 'unit_price',
