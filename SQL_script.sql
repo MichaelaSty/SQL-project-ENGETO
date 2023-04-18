@@ -83,7 +83,6 @@ WHERE
 
 	114201	Mléko polotučné pasterované
 	111301	Chléb konzumní kmínový
-
 */
 
 SELECT
@@ -120,32 +119,34 @@ ORDER BY category_name;
 
 WITH question3 AS (
 SELECT
-	t1.unit_price,
-	t1.category_code,
-	t1.category_name, 
-	t1.pricing_year, 
-	t1.industry_branch_code,
-	t2.pricing_year AS 'prev_pricing_year',
-	t2.unit_price AS 'prev_unit_price',
-	round(((t1.unit_price * 100) / t2.unit_price) - 100, 2)  AS 'pct_price_change'
-FROM t_michaela_styskalova_project_sql_primary_final t1 
-	LEFT JOIN t_michaela_styskalova_project_sql_primary_final t2
-	ON t1.category_code = t2.category_code
-	AND t1.pricing_year = t2.pricing_year +1
+	primary1.unit_price,
+	primary1.category_code,
+	primary1.category_name, 
+	primary1.pricing_year, 
+	primary1.industry_branch_code,
+	primary2.pricing_year AS 'prev_pricing_year',
+	primary2.unit_price AS 'prev_unit_price',
+	round(((primary1.unit_price * 100) / primary2.unit_price) - 100, 2)  AS 'pct_price_change'
+FROM t_michaela_styskalova_project_sql_primary_final primary1 
+	LEFT JOIN t_michaela_styskalova_project_sql_primary_final primary2
+		ON primary1.category_code = primary2.category_code
+		AND primary1.pricing_year = primary2.pricing_year +1
 GROUP BY 
-	t1.unit_price,
-	t1.category_code, 
-	t1.category_name, 
-	t1.price_value, 
-	t1.price_unit,
-	t1.pricing_year,
-	t1.industry_branch_code,
-	t2.pricing_year, 
-	t2.unit_price
+	primary1.unit_price,
+	primary1.category_code, 
+	primary1.category_name, 
+	primary1.price_value, 
+	primary1.price_unit,
+	primary1.pricing_year,
+	primary1.industry_branch_code,
+	primary2.pricing_year, 
+	primary2.unit_price
 )
 SELECT *
 FROM question3 
-WHERE industry_branch_code IS NULL AND pct_price_change IS NOT NULL  
+WHERE 
+	industry_branch_code IS NULL 
+	AND pct_price_change IS NOT NULL  
 ORDER BY pct_price_change ASC
 LIMIT 1;
 
