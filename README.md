@@ -95,7 +95,7 @@ For the last comparable period (2018) can be bought <br>
 
 
 ## **Question 3:** Which food category is increasing in price the slowest (has the lowest percentage year-on-year increase)? <br>
-https://github.com/MichaelaSty/SQL-project-ENGETO/blob/14b0448dc76eaddc457a2a657fee6514e64eb3d9/SQL_script.sql#L120-L149
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/fecb2ba6a848e424e528519e9fec1669f00e6534/SQL_script.sql#L120-L151
 
 **Conclusion Q3:** <br>
 The lowest percentage year-on-year increase (-30.28 %) can be found in the category 'Rajská jablka červená kulatá' from the year 2006 to 2007. <br>
