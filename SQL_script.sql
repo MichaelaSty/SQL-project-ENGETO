@@ -144,15 +144,13 @@ GROUP BY
 )
 SELECT *
 FROM question3 
-WHERE industry_branch_code IS NULL 
-	AND pct_price_change IN (
-		SELECT min(pct_price_change)
-		FROM question3 
-		WHERE pct_price_change > 0);
+WHERE industry_branch_code IS NULL AND pct_price_change IS NOT NULL  
+ORDER BY pct_price_change ASC
+LIMIT 1;
 
 /* 	Conclusion: The lowest percentage year-on-year increase (0.01 %) can be
 	found in the category 'Rostlinný roztíratelný tuk' from the year
-	2008 to 2009 
+	2008 to 2009.  
 */
 
 
