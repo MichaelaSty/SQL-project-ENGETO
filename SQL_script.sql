@@ -150,9 +150,9 @@ WHERE
 ORDER BY pct_price_change ASC
 LIMIT 1;
 
-/* 	Conclusion: The lowest percentage year-on-year increase (0.01 %) can be
-	found in the category 'Rostlinný roztíratelný tuk' from the year
-	2008 to 2009.  
+/* 	Conclusion: The lowest percentage year-on-year increase (-30.28 %) 
+	can be found in the category 'Rajská jablka červená kulatá' from 
+	the year 2006 to 2007. 
 */
 
 
