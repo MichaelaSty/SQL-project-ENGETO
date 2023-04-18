@@ -71,7 +71,7 @@ https://github.com/MichaelaSty/SQL-project-ENGETO/blob/b3ecd0c146304d37fa9a51122
 Next, I will include data from the 'czechia_price' dataset, which will be named 'prices'. The 'prices' CTE contains the average prices, name and measuring units of different food categories in Czechia from the 'czechia_price' and 'czechia_price_category' tables: <br> 
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/e72ee5b3697d8e5379a174729be1612616411cbe/SQL_script.sql#L18-L32
 
-Final select, forming the primary table:
+Final select, forming the primary table. The join is based on the matching year of the wage and price data:
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/9aa06b2b9193c6713593958c0a0a3ec9ec22a604/SQL_script.sql#L33-L49
 
 ## Question 1: Are wages rising in all industries over the years, or falling in some?
