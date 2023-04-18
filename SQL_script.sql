@@ -162,22 +162,22 @@ LIMIT 1;
 
 WITH wages_q4 AS (
 	SELECT 
-		t1.payroll_year,
-		t1.industry_branch_code,
-		t1.wages,
-		t2.wages AS 'prev_wages',
-		round(((t1.wages * 100) / t2.wages) - 100, 2) AS 'pct_wage_change',
-		t1.category_code 
-	FROM t_michaela_styskalova_project_sql_primary_final AS t1
-	LEFT JOIN t_michaela_styskalova_project_sql_primary_final AS t2
-		ON t1.payroll_year = t2.payroll_year + 1 
-		WHERE t1.industry_branch_code IS NULL AND t2.industry_branch_code IS NULL  
+		primary1.payroll_year,
+		primary1.industry_branch_code,
+		primary1.wages,
+		primary2.wages AS 'prev_wages',
+		round(((primary1.wages * 100) / primary2.wages) - 100, 2) AS 'pct_wage_change',
+		primary1.category_code 
+	FROM t_michaela_styskalova_project_sql_primary_final AS primary1
+	LEFT JOIN t_michaela_styskalova_project_sql_primary_final AS primary2
+		ON primary1.payroll_year = primary2.payroll_year + 1 
+		WHERE primary1.industry_branch_code IS NULL AND primary2.industry_branch_code IS NULL  
 	GROUP BY
-		t1.payroll_year,
-		t1.industry_branch_code,
-		t1.wages,
+		primary1.payroll_year,
+		primary1.industry_branch_code,
+		primary1.wages,
 		prev_wages,
-		t1.category_code 
+		primary1.category_code 
 ),
 prices_q4 AS (
 SELECT
@@ -187,20 +187,20 @@ SELECT
 FROM
 	(
 	SELECT
-		t1.category_code, 
-		t1.unit_price,
-		t1.pricing_year, 
-		t2.pricing_year AS 'prev_pricing_year',
-		t2.unit_price AS 'prev_unit_price',
-		round(((t1.unit_price * 100) / t2.unit_price) - 100, 2) AS 'pct_price_change'
-	FROM 	t_michaela_styskalova_project_sql_primary_final t1
-	LEFT JOIN t_michaela_styskalova_project_sql_primary_final t2
-		ON t1.category_code = t2.category_code
-		AND t1.pricing_year = t2.pricing_year + 1
-	WHERE 	t1.pricing_year > 2006
+		primary1.category_code, 
+		primary1.unit_price,
+		primary1.pricing_year, 
+		primary2.pricing_year AS 'prev_pricing_year',
+		primary2.unit_price AS 'prev_unit_price',
+		round(((primary1.unit_price * 100) / primary2.unit_price) - 100, 2) AS 'pct_price_change'
+	FROM 	t_michaela_styskalova_project_sql_primary_final primary1
+	LEFT JOIN t_michaela_styskalova_project_sql_primary_final primary2
+		ON primary1.category_code = primary2.category_code
+		AND primary1.pricing_year = primary2.pricing_year + 1
+	WHERE 	primary1.pricing_year > 2006
 	GROUP BY 
-		t1.category_code, 
-		t1.unit_price,
+		primary1.category_code, 
+		primary1.unit_price,
 		prev_pricing_year,
 		prev_unit_price
 	ORDER BY 
