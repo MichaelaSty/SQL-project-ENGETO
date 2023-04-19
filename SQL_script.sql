@@ -333,7 +333,7 @@ WHERE
 	`year` > 2005 
 	AND `year` < 2011;
 
-/*	Conclusion Q5: Yes, the higher level of GDP increase food prices and wages during current year and also next year.
+/*	Conclusion Q5: Yes, the higher level of GDP increases food prices and wages during current year and also next year.
 */
 
 -- Create secondary table
