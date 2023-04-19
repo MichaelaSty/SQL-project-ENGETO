@@ -245,7 +245,9 @@ WITH wages_q5 AS (
 	FROM t_michaela_styskalova_project_sql_primary_final AS primary1
 	LEFT JOIN t_michaela_styskalova_project_sql_primary_final AS primary2
 		ON primary1.payroll_year = primary2.payroll_year + 1 
-		WHERE primary1.industry_branch_code IS NULL AND primary2.industry_branch_code IS NULL  
+	WHERE 
+		primary1.industry_branch_code IS NULL 
+		AND primary2.industry_branch_code IS NULL  
 	GROUP BY
 		primary1.payroll_year,
 		primary1.industry_branch_code,
@@ -263,15 +265,17 @@ SELECT
 	round(((primary1.unit_price * 100) / primary2.unit_price) - 100, 2)  AS 'pct_price_change'
 FROM t_michaela_styskalova_project_sql_primary_final primary1 
 	LEFT JOIN t_michaela_styskalova_project_sql_primary_final primary2
-	ON primary1.category_code = primary2.category_code
-	AND primary1.pricing_year = primary2.pricing_year +1
-	WHERE primary1.pricing_year > 2006
+		ON primary1.category_code = primary2.category_code
+		AND primary1.pricing_year = primary2.pricing_year +1
+WHERE primary1.pricing_year > 2006
 GROUP BY 
 	primary1.category_code, 
 	primary1.unit_price,
 	prev_pricing_year,
 	prev_unit_price
-ORDER BY category_code, pricing_year 
+ORDER BY 
+	category_code, 
+	pricing_year 
 ),
 hdp AS (
 SELECT
