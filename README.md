@@ -116,7 +116,7 @@ https://github.com/MichaelaSty/SQL-project-ENGETO/blob/d58d67d2bed2611fcdf286008
 I have selected the maximum percentage GDP change (5.57 %), which was during the years 2006 - 2007 for further analysis. <br>
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/1cd8bc83048414c9a24bf912e0736060d0687031/SQL_script.sql#L319-L328
 
-Conclusion Q5: Yes, the higher level of GDP increase food prices and wages during current year and also next year. <br>
+Conclusion Q5: Yes, the higher level of GDP increases food prices and wages during current year and also next year. <br>
 
 ##  Creating secondary table <br>
 I will create a secondary table called 't_michaela_styskalova_project_sql_secondary_final', which will serve as an additional material. <br>
