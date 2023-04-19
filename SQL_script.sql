@@ -275,16 +275,18 @@ ORDER BY category_code, pricing_year
 ),
 hdp AS (
 SELECT
-eco1.`year` AS 'year',
-eco2.`year` AS 'prev_year',
-round(eco1.GDP,0) AS 'GDP',
-round(eco2.GDP,0) AS 'prev_GDP',
-round(((eco1.GDP * 100) / eco2.GDP) - 100, 2) AS 'pct_GDP_change'
+	eco1.`year` AS 'year',
+	eco2.`year` AS 'prev_year',
+	round(eco1.GDP,0) AS 'GDP',
+	round(eco2.GDP,0) AS 'prev_GDP',
+	round(((eco1.GDP * 100) / eco2.GDP) - 100, 2) AS 'pct_GDP_change'
 FROM economies eco1
 LEFT JOIN economies eco2
-ON eco1.`year` = eco2.`year` +1
-AND eco1.country = eco2.country 
-WHERE eco1.country = 'Czech Republic' AND eco1.`year` > 2000
+	ON eco1.`year` = eco2.`year` +1
+	AND eco1.country = eco2.country 
+WHERE 
+	eco1.country = 'Czech Republic' 
+	AND eco1.`year` > 2000
 )
 SELECT
 	prc.category_code,
@@ -295,8 +297,8 @@ SELECT
 	hdp.pct_GDP_change
 FROM prices_q5 prc
 LEFT JOIN wages_q5 wag
-    ON prc.pricing_year = wag.payroll_year
-    AND prc.category_code = wag.category_code
+    	ON prc.pricing_year = wag.payroll_year
+   	AND prc.category_code = wag.category_code
 LEFT JOIN hdp hdp
 	ON hdp.`year` = prc.pricing_year
 	AND hdp.`prev_year` = prc.prev_pricing_year 
