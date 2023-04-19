@@ -327,13 +327,7 @@ WHERE
 	`year` > 2005 
 	AND `year` < 2011;
 
-/*	The GDP grow around 2 - 3 % per year doesn't have real impact/side effect
-	on economy. For this reason I have selected the maximum percentage GDP 
-	change (5.57 %), which was during the years 2006 - 2007 for further analysis.
-
-	Conclusion: Overall economy growth (GDP increase):
-		- increase the prices or slows down the price reduction trend 
-		- increase the wages
+/*	Conclusion Q5: Yes, the higher level of GDP increase food prices and wages during current year and also next year.
 */
 
 -- Create secondary table
