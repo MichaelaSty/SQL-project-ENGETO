@@ -108,7 +108,7 @@ https://github.com/MichaelaSty/SQL-project-ENGETO/blob/1208a31672da8d32bbd849c1e
 There was no year in which the year-on-year price change of the consumer basket exceeded the year-on-year wage change by more than 10%.<br>
 
 ## **Question 5:** Does the level of GDP affect changes in wages and food prices? Or, if the GDP increases more significantly in one year, will this be reflected in food prices or wages in the same or the following year by a more significant increase? <br>
-https://github.com/MichaelaSty/SQL-project-ENGETO/blob/ff2bed99207f3752de0cce58641b4be67e4a5bff/SQL_script.sql#L236-L312
+https://github.com/MichaelaSty/SQL-project-ENGETO/blob/72814a7730b93f04d2707d411a338fab7314b440/SQL_script.sql#L236-L316
 
 Finding max value in data: <br> 
 https://github.com/MichaelaSty/SQL-project-ENGETO/blob/d58d67d2bed2611fcdf286008fbd904b93ae9d54/SQL_script.sql#L312-L317
